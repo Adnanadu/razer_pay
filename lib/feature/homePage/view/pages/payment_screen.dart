@@ -38,7 +38,6 @@ class _PaymentScreenState extends State<PaymentScreen> {
         options: Options(
           contentType: 'application/json',
           headers: {
-            // rzp_test_Ye95J2G7yZUg0R
             'Authorization':
                 'Basic ${base64.encode(utf8.encode('$razerKey:$secretKey'))}',
           },
